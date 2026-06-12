@@ -21,7 +21,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh '''
-                echo "Running tests..."
+                ec "Running tests..."
                 sleep 10
                 '''
             }
